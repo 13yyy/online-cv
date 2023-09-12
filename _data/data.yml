@@ -60,114 +60,143 @@ education:
         university: 中国传媒大学
         time: 2020 - 2024
         details: |
-          #在这里展开你的教育经历，可以包括你的成绩情况/排名情况/专业课程等，可以使用
-          #`  - 分条`来实现分条叙述，样式如下：
             -平均成绩：90 GPA：3.62/4.00 专业排名：7/26（26.92%）
+            
             -高分课程：概率论 99、智能音频处理 95、计算机原理与应用 95、优化方法 95、模式识别与计算机视觉 93
+            
             -英语水平：CET-4：592 CET-6： 565 拥有较好的英文文献阅读能力和写作能力
+
             -编程技能：掌握C++、python、java、R语言、matlab，mysql等编程语言，有较好的机器学习基础。
             
 
 
-experiences:
-    title: 职业经历/实习经历
-    info:
-      - role: 幼儿园老师
-        time: 2019 - Present
-        company: 翻斗幼儿园, 北京
-        details: |
-          介绍你的工作情况，可以包括具体承担的工作内容、学习掌握的相关技能等。
+# experiences:
+#     title: 职业经历/实习经历
+#     info:
+#       - role: 幼儿园老师
+#         time: 2019 - Present
+#         company: 翻斗幼儿园, 北京
+#         details: |
+#           介绍你的工作情况，可以包括具体承担的工作内容、学习掌握的相关技能等。
 
-      - role: 坠机驾驶员
-        time: 2014 - 2015
-        company: GUTS, Chiba-ken
-        details: |
-          介绍你的工作情况，可以包括具体承担的工作内容、学习掌握的相关技能等。
+#       - role: 坠机驾驶员
+#         time: 2014 - 2015
+#         company: GUTS, Chiba-ken
+#         details: |
+#           介绍你的工作情况，可以包括具体承担的工作内容、学习掌握的相关技能等。
 
-      - role: 美术生助理
-        time: 1931 - 1945
-        company: Berlin, German
-        details: |
-          介绍你的工作情况，可以包括具体承担的工作内容、学习掌握的相关技能等。
+#       - role: 美术生助理
+#         time: 1931 - 1945
+#         company: Berlin, German
+#         details: |
+#           介绍你的工作情况，可以包括具体承担的工作内容、学习掌握的相关技能等。
 
 
 certifications:
       title: 所获荣誉
       list:
-        - name: 中传青年五四奖章·科创新秀
+        - name: 第十四届全国大学生数学竞赛 全国奖二等奖
           start: 2022
-          end:
-          organization: 中国传媒大学
-#          credentialid: 111-222  # 好像是证书编号
-          credentialurl: https://mp.weixin.qq.com/s/Yy1517N0oefRJWWWsE8BQA
-          credentialname: 传媒团英
-          details: |
-            简单介绍一下该荣誉的含金量和你为此付出的努力/它能体现出你具有什么能力。
-
-        - name: 年度双创人物
-          start: 2021
           end: 2023
-          organization: 教育部
-          credentialurl: http://gjcxcy.bjtu.edu.cn
-          credentialname: 全国大学生创新创业年会
-          details: |
-            简单介绍一下该荣誉的含金量和你为此付出的努力/它能体现出你具有什么能力。
+          organization: 中国数学会
+#          credentialid: 111-222  # 好像是证书编号
+          # credentialurl: https://mp.weixin.qq.com/s/Yy1517N0oefRJWWWsE8BQA
+          credentialname: 第十四届全国大学生数学竞赛
+          # details: |
+          #   简单介绍一下该荣誉的含金量和你为此付出的努力/它能体现出你具有什么能力。
 
+        - name: 中国传媒大学第一届“菁英杯”科技节智能科技赛道一等奖 负责人
+          start: 2022
+          end: 2023
+          organization: 中国传媒大学信息与通信工程学院
+          # credentialurl: http://gjcxcy.bjtu.edu.cn
+          credentialname: 中国传媒大学第一届“菁英杯”科技节
+          # details: |
+          #   简单介绍一下该荣誉的含金量和你为此付出的努力/它能体现出你具有什么能力。
+
+        - name: “青创北京”2023年“挑战杯”首都大学生课外科技作品竞赛（校赛）优秀奖组员
+          start: 2022
+          end: 2023
+          organization: 中国传媒大学
+          # credentialurl: http://gjcxcy.bjtu.edu.cn
+          credentialname: “青创北京”2023年“挑战杯”首都大学生课外科技作品竞赛（校赛）
+          # details: |
+          #   简单介绍一下该荣誉的含金量和你为此付出的努力/它能体现出你具有什么能力。
+        
+        - name: 大学生创业创新训练计划国家级立项 组员（已结项）
+          start: 2022
+          end: 2023
+          organization: 创业创新教育中心
+          # credentialurl: http://gjcxcy.bjtu.edu.cn
+          credentialname: 大学生创业创新训练计划
+          # details: |
+          #   简单介绍一下该荣誉的含金量和你为此付出的努力/它能体现出你具有什么能力。
+
+        
 
 projects:
-    title: 项目经历
-    intro: >
-      在这里罗列你参与过的项目经历。
+    title:  基于深度学习的智能车目标检测与视觉导航
+    intro:
+    -content：旨在解决无人驾驶中的目标检测和视觉导航问题。采用LaneNet和YOLOv4深度学习模型，结合传统视觉方法，提升了检测效率。
+    在室内模拟场景中，智能车的无人驾驶系统能够准确实时地完成交通场景中的车道线检测、交通信号灯识别和视觉导航任务。
+
+    
+      
 
     assignments:
-      - title: 品牌食品加工
-        link: "#"
-        tagline: "主要负责给苏打饼干扎眼儿、给趣多多点巧克力豆。"
+      - title:  云原生环境下的微服务故障定位
+        # link: "#"
+        intro:
+        "旨在解决微服务架构中故障的产生和传播问题。采用基于深度学习的TraceAnomaly算法，通过非监督的方式，能够自动
+        学习调用轨迹中的模式，并适应不同的环境和工作负载。获得2022年大学生创业创新训练计划的国家级立项。"
 
-      - title: 拾忆
-        link: "#"
-        tagline: "面向博物馆、档案馆提供AI+人工的影像精修服务。"
+      - title: 机器学习的安全与隐私
+        # link: "#"
+        intro: "旨在解决传统机器学习模型集中训练存在的安全性和隐私性问题。采用联邦学习打破数据孤岛并保护用户隐私。模拟非独立
+        同分布的数据分布，以研究数据异构性对联邦学习攻防模型的影响。针对异构数据，采用联邦元学习提高模型适应不同任务的能力。在
+        安全方面，采用不同防御技术提升模型对攻击的鲁棒性。"
 
 
 publications:
-    title: 发表论文
-    intro: |
-      在此列举你的学术成果或其他出版物/可以通过链接访问的成果。
+    title: 基于深度学习的智能车目标检测与视觉导航
+    intro: "https://kns.cnki.net/kcms2/article/abstract?v=qJbV8tG_OtsA9SOFMXvhRMovuY-0FvS16UWIzq7U_jWqDSgLR5wMu35lGIuQDykr-xlAsyiQj6TKBO6ztdEJlFsKCpRaQaHVcvAHzQS3TRAK0n3SWs9jqIsxeKR2SQI4kLKBoqHma6s=&uniplatform=NZKPT&flag=copyLINK
+    "
+      
 
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    # papers:
+    #   - title: The Art of Computer Programming
+    #     link: "#"
+    #     authors: Donald E. Knuth
+    #     conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    #   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    #     link: "#"
+    #     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    #   - title: A syntax directed compiler for Algol 60
+    #     link: "#"
+    #     authors: Edgar T. Irons
+    #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: 技能
 
     toolset:
       - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
         level: 95%
 
+      - name: Javascript & jQuery
+        level: 90%
+
+      - name: Angular
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 90%
+
       - name: Ruby on Rails
-        level: 85%
+        level: 70%
 
       - name: Sketch & Photoshop
         level: 60%
